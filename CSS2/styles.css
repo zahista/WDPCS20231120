@@ -1,0 +1,56 @@
+header, footer{
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+    padding-left: 16px;
+    padding-right: 16px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 24px;
+    padding-right: 24px;
+    background-color: #D9EBFF;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    box-shadow: 5px 10px #e1e1e117;
+}
+
+#main_image{
+    height: 70%;
+}
+
+.hero_section{
+    width: 40%;
+}
+
+.cta{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+button
+{
+    width: 30%;
+    box-shadow: 5px 10px #e1e1e117;
+    background-color: #D9EBFF;
+    border-radius: 35px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    margin-bottom: 8px;
+
+}
+
+article{
+    display: flex;
+    height: 70vh;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.logo {
+    width: 64px;
+}
