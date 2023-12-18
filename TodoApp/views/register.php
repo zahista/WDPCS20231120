@@ -1,13 +1,5 @@
-<!DOCTYPE html>
-<html lang="en">
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../css/styles.css">
-    <title>Login</title>
-</head>
-
+<?php include "./partials/header.php"; ?>
 <body>
 
     <head class="header">
@@ -21,7 +13,7 @@
             <input type="text" name="Password" placeholder="Potvrdit heslo">
             <button class="button--primary" type="submit">Vytvořit účet</button>
             <div class="form__footer">
-                <p>Již máte účet? <a href="/PCS2023/TodoApp/views/login.html">Přihlaste se</a></p>
+                <p>Již máte účet? <a href="/PCS2023/TodoApp/views/login.php">Přihlaste se</a></p>
             </div>
         </form>
     </main>
